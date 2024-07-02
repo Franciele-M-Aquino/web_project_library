@@ -315,7 +315,7 @@
 }
 
 .step {
-  max-width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -340,6 +340,7 @@
   background-color: #1f1f1f;
   font-family: arial, sans-serif;
   padding: 60px 80px;
+  color: #ffffff;
 }
 
 .footer__columns {
@@ -347,12 +348,10 @@
 }
 
 .footer__column_content_hours {
-  color: #ffffff;
   margin-left: auto;
 }
 
 .footer__column_content_social {
-  color: #ffffff;
   margin-left: 80px;
 }
 
@@ -362,7 +361,6 @@
 }
 
 .footer__column-heading {
-  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -385,6 +383,7 @@
   text-decoration: none;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
